@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+JS files were being called in the beginning of the HTML body section. For this reason, when index.js was looking for #header element, it returned null.
 ```
 
 ## Deliverable 2
